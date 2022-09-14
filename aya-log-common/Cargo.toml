@@ -14,7 +14,7 @@ default = []
 userspace = [ "aya" ]
 
 [dependencies]
-aya = {  git = "https://github.com/aya-rs/aya", branch = "main", features=["async_tokio"], optional=true }
+aya = {  git = "https://github.com/AlexandruCihodaru/aya", branch = "dunno", features=["async_tokio"], optional=true }
 
 [lib]
 path = "src/lib.rs"
